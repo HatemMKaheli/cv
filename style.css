@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+    margin-left: 1rem;
+    margin-bottom: 0;
+    color: cadetblue;
+}
+
+p {
+    margin-left: 1rem;
+    margin-top: 0;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.contacts {
+    position: fixed;
+    top: .5rem;
+    right: 1rem;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+nav {
+    background-color: cadetblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #111;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
