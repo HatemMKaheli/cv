@@ -2,60 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Profile Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="file.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatem Profile Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
 </head>
 
 <body>
-    <div class="black">
-        <img src="profile.jpg" alt="my profile picture." width="200" height="200" />
-        <h1>Hatem Mohammed Kaheli</h1>
-        <p>I graduated in Jubail University College in Computer Science field. Now I am studing Web Development.</p>
+    <nav>
+        <a href="#1">Information</a>
+        <a href="">Courses</a>
+        <a href="">Computer Skills</a>
+        <a href="">Languages</a>
+        <a href="">Other Skills</a>
+    </nav>
 
-        <nav>
-            <ul>
-                <li><a href="" onclick="skillsLink()">Skills</a></li>
-                <li><a href="">Courses</a></li>
-            </ul>
-        </nav>
+    <div class="profile">
+        <table>
+            <tr>
+                <th>Profile</th>
+                <td style="text-align: right; width: 600px;"><img src="profile.jpg" alt="My profile picture." width="200" height="240"></td>
+                <td>
+                    <h1>Hatem Mohammed Kaheli</h1>
+                    <ul>
+                        <li>Phone: 0550689921</li>
+                        <li>Email: <a href="mailto:hatem_m_k@outlook.com">hatem_m_k@outlook.com</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 
-    <div class="contacts">
-        <h3>Contacts</h3>
-        <ul>
-            <li>Email: hatem_m_k@outlook.com</li>
-            <li>phone: 966 550689921</li>
-        </ul>
+    <div class="information" id="1">
+        <table>
+            <tr>
+                <th rowspan="4">Information</th>
+                <td style="text-align: right; width: 600px;">Sex:</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;  width: 600px;">Age:</td>
+                <td>25 years old</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;  width: 600px;">Place of residence:</td>
+                <td>Al Khobar, Saudi Arabia</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;  width: 600px;">Prefered Workplace locations:</td>
+                <td>Al Kohbar, Dammam, Dahran</td>
+            </tr>
+        </table>
     </div>
-
-    <h2>Skills</h2>
-    <ul>
-        <li>I can use HTML, CSS, and a little bit of javascript to develope and modify Web pages.</li>
-        <li>I can remove and re-install hard disk and RAM on a Laptop.</li>
-        <li>I can install devices and printers on windows.</li>
-        <li>I can use windows and applications like microsoft office.</li>
-    </ul>
-
-    <h2>Courses</h2>
-    <table class="center">
-        <thead>
-            <tr>
-                <th>Course Name</th>
-                <th>Issue Date</th>
-                <th>Number of training hours</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Microsoft Outlook</td>
-                <td>2020-11-18</td>
-                <td>2</td>
-            </tr>
-        </tbody>
-    </table>
 
 </body>
 
